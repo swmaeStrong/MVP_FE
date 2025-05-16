@@ -116,6 +116,7 @@
 		BD1773592DD716C200141F17 /* SwMaeStrong */ = {
 			isa = PBXGroup;
 			children = (
+				BD1773572DD716C200141F17 /* SwMaeStrong.entitlements */,
 				BD17735D2DD716CA00141F17 /* App */,
 				BD1773642DD7171400141F17 /* Utils */,
 				BD1773632DD7170100141F17 /* Screen */,
@@ -129,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				BD1773582DD716C200141F17 /* SwMaeStrongApp.swift */,
-				BD1773572DD716C200141F17 /* SwMaeStrong.entitlements */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -507,6 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SwMaeStrong/SwMaeStrong.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -533,6 +534,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SwMaeStrong/SwMaeStrong.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
