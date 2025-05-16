@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct SwMaeStrongApp: App {
+    static let store = Store(initialState: MainTabReducer.State()) {
+        MainTabReducer()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView(store: SwMaeStrongApp.store)
         }
     }
 }
